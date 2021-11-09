@@ -1,0 +1,5 @@
+#!/bin/bash
+
+VERSION=v0.1
+
+go build -o "provider-mongo-$VERSION" provider.go
